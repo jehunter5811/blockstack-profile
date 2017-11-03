@@ -1,0 +1,28 @@
+{
+  "name": "Blockstack Profile",
+  "version": "0.0.1",
+  "description": "A simple profile app for users to display if they want.",
+  "main": "index.js",
+  "scripts": {
+    "browserify": "browserify requires.js -o public/bundle.js",
+    "start": "npm run browserify; node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockstack/hello-blockstack.git"
+  },
+  "author": "Justin Hunter",
+  "license": "MIT",
+  },
+  "homepage": "https://github.com/blockstack/hello-blockstack#readme",
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "express": "^4.15.2",
+    "opn": "^4.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.17.0",
+    "blockstack": "^0.11.0",
+    "react": "^16.0.0"
+  }
+}
